@@ -1,0 +1,36 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: silver;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: sienna;
+    
+  }
+  
+  button {
+    text-align: center;
+    font-size: 24px;
+    height: 100px;
+  }
+
+  /* reset button  */
+  .resetBtn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 12%;
+  
+  }
